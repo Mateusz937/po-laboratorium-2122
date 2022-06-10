@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona główna</title>
+</head>
+<body>
+<p>Moje samochody:</p>
+
+{% for samochod in samochody %}
+    {{ samochod }}<br>
+{% endfor %}
+</body>
+</html>
